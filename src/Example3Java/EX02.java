@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class EX02 {
     public static void main(String[] args) {
-        System.out.print("Enter number : ");
+        System.out.print("Enter number :");
         String number = new Scanner(System.in).nextLine();
         String phone1 = number.substring(0, 3);
         String phont2 = number.substring(4);
